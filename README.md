@@ -14,6 +14,6 @@ before using:
 sample use: 
 1. before running the program, login as root
 
-=>  python3 networkscanner.py --help
+=>  python3 basicnetworkscanner.py --help
 
-=>  python3 networkscanner.py -t (192.168.29.1/24)
+=>  python3 basicnetworkscanner.py -t (192.168.29.1/24)
