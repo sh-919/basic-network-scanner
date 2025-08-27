@@ -4,7 +4,7 @@ from termcolor import colored
 
 def get_arguments():
     parse = optparse.OptionParser()
-    parse.add_option("-t", "--target", dest = "ip", help = "An example of an IP Address range => 192.168.2.126/24.")
+    parse.add_option("-t", "--target", dest = "ip", help = "An example of an IP Address range => 192.168.2.133/24.")
     someoptions, arguments = parse.parse_args()
 
     if not someoptions.ip:
