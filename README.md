@@ -16,4 +16,4 @@ sample use:
 
 =>  python3 basicnetworkscanner.py --help
 
-=>  python3 basicnetworkscanner.py -t (192.168.28.1/24)
+=>  python3 basicnetworkscanner.py -t (192.168.38.1/24)
