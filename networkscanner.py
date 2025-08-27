@@ -4,7 +4,7 @@ from termcolor import colored
 
 def get_arguments():
     parse = optparse.OptionParser()
-    parse.add_option("-t", "--target", dest = "ip", help = "An example of an IP Address range => 192.168.29.1/24.")
+    parse.add_option("-t", "--target", dest = "ip", help = "An example of an IP Address range => 192.168.2.126/24.")
     someoptions, arguments = parse.parse_args()
 
     if not someoptions.ip:
@@ -28,10 +28,17 @@ def print_result(result_list):
     for result in result_list:
         print(result["ip"], "\t    ",result["mac"])
 
-#def about():
-#workon
+def about():
+    	print(colored("# Creator     :", "blue") + "Sara Husain")
+		print(colored("# Linkedin    :", "red") + " https://www.linkedin.com/in/sara-husain")
+		print(colored("# Github      :", "green") + " https://github.com/sh-919")
+		print(colored("# Title       :", "purple") + " Basic Network Scanner")
+		print(colored("# Description :","yellow") + " This is a basic network scanner for grabbing mac addresses from a range of IP addresses.")
+		print(colored("# Version     :", "blue") + " 1.0 (2025)")
+		print(colored("# .......................................................................................\n", "blue"))
 
-#about()
+
+about()
 someoptions = get_arguments()
 scan_output = scan(someoptions.ip)
 print_result(scan_output)
