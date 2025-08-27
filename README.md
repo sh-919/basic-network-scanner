@@ -1,4 +1,4 @@
-# easynetworkscanner
+# easynetworkscanner (work on)
 Give execute permission to the bash file that will install the requirements. 
 
 =>  chmod +x (/path/to/requirements.sh)
