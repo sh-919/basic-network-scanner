@@ -12,4 +12,4 @@ sample use:
 
 python3 networkscanner.py --help
 
-python3 networkscanner.py -t 192.168.29.1/24
+python3 networkscanner.py -t (192.168.29.1/24)
