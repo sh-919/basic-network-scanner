@@ -1,5 +1,7 @@
 # easynetworkscanner (work on)
 
+run on linux
+
 before using:
 1. login as root
 
