@@ -1,4 +1,4 @@
-# easynetworkscanner (work on)
+# basicnetworkscanner (work on)
 
 run on linux
 
