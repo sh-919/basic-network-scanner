@@ -1,4 +1,4 @@
-# basic network scanner 
+# Basic Network Scanner 
 
 This is a basic network scanner for scanning a range of IP addresses and getting their MAC addresses.
 
