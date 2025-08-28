@@ -1,25 +1,41 @@
-# basicnetworkscanner (UNFIN)
+# basic network scanner 
 
-This program is supported for Linux.
 This is a basic network scanner for scanning a range of IP addresses and getting their MAC addresses.
 
-# before using:
-1. download requirements.sh and basicnetworkscanner.py
+Supported for Linux and written in Python.
 
-2. open shell + login as root
+# before using (guide):
 
-3. Give execute permission to the bash file that will install the requirements. 
+you will need to install some packages. 
+check [needed.txt](https://github.com/sh-919/basicnetworkscanner/blob/main/needed.txt) for more info. 
 
-=>  chmod +x /path/to/requirements.sh
-
-4. Navigate to directory requirements.sh is in and run the script.
-
-=>  ./requirements.sh
-
-5. once completing step 4 you will be able to run the network scanner
+if not already installed, download [required.sh](https://github.com/sh-919/basicnetworkscanner/blob/main/required.sh) and follow the directions below to install.
 
 
-# sample use: 
-=>  python3 basicnetworkscanner.py --help
+## 1) open shell + login as root
+    sudo -s
 
-=>  python3 basicnetworkscanner.py -t 192.168.38.1/24
+## 2) give execute permission to the bash file that will install the requirements
+    chmod +x /path/to/required.sh
+
+## 3) Navigate to directory required.sh is in and run the script.
+    ./required.sh
+
+once you have completed these steps you can download and run [basicnetworkscanner.py](https://github.com/sh-919/basicnetworkscanner/blob/main/basicnetworkscanner.py).
+
+
+
+# sample usages: 
+
+> **this command will  scan a range of IP addresses and grab their MAC addresses**
+
+    python3 basicnetworkscanner.py -t <ip address>
+
+> **example**
+
+    python3 basicnetworkscanner.py -t 192.168.38.1/24
+
+> **for help**
+
+    python3 basicnetworkscanner.py --help
+
