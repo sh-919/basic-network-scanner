@@ -1,0 +1,6 @@
+You will need the following:
+
+python3
+scapy
+termcolor
+optparse
