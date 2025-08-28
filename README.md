@@ -1,6 +1,7 @@
-# basicnetworkscanner (work on)
+# basicnetworkscanner (UNFIN)
 
 This program is supported for Linux.
+This is a basic network scanner for scanning a range of IP addresses and getting their MAC addresses.
 
 # before using:
 1. download requirements.sh and basicnetworkscanner.py
