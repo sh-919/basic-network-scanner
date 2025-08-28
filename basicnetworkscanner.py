@@ -1,3 +1,4 @@
+import time
 import scapy.all as scapy
 import optparse
 from termcolor import colored
@@ -29,10 +30,17 @@ def print_result(result_list):
         print(result["ip"], "\t    ",result["mac"])
 
 def about():
-	print(colored("# Creator     :", "blue") + "Sara Husain")
+	print(colored("# Creator     :", "blue") + " Sara Husain")
 	print(colored("# Linkedin    :", "red") + " https://www.linkedin.com/in/sara-husain")
 	print(colored("# Github      :", "green") + " https://github.com/sh-919")
-	print(colored("...........................................................................................", "blue"))
+	print(colored(".......................................................................", "blue"))
+	print(colored("Running Network Scanner", "blue"))
+	time.sleep(1)
+	print(colored(".", "blue"))
+	time.sleep(1)
+	print(colored(". . ", "red"))
+	time.sleep(1)
+	print(colored(". . .", "green"))
 
 about()
 someoptions = get_arguments()
