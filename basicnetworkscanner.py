@@ -32,11 +32,6 @@ def about():
 	print(colored("# Creator     :", "blue") + "Sara Husain")
 	print(colored("# Linkedin    :", "red") + " https://www.linkedin.com/in/sara-husain")
 	print(colored("# Github      :", "green") + " https://github.com/sh-919")
-	print(colored("# Title       :", "blue") + " Basic Network Scanner")
-	print(colored("# Description :", "red") + " This is a basic network scanner for grabbing mac addresses from a range of IP addresses.")
-	print(colored("# Version     :", "green") + " 1.0 (2025)")
-	print(colored("# .......................................................................................\n", "blue"))
-
 
 about()
 someoptions = get_arguments()
