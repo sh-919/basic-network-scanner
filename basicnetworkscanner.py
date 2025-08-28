@@ -32,6 +32,7 @@ def about():
 	print(colored("# Creator     :", "blue") + "Sara Husain")
 	print(colored("# Linkedin    :", "red") + " https://www.linkedin.com/in/sara-husain")
 	print(colored("# Github      :", "green") + " https://github.com/sh-919")
+	print(colored("...........................................................................................", "blue"))
 
 about()
 someoptions = get_arguments()
